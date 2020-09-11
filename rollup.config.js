@@ -11,10 +11,10 @@ export default {
             exclude: ['node_modules/**']
         })
     ],
-    // sourceMap: true,
     output: [
         {
             format: 'umd',
+            sourcemap: true,
             name: 'geometryExtrude',
             file: 'dist/geometry-extrude.js'
         }
